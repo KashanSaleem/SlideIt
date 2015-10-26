@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Test</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/sliderCss.css" />
+
+		    <script src="js/jquery-1.11.2.min.js"></script>
+		    <script src="js/jquery.sliderJs.min.js"></script>
+
+	</head> 
+	<body>
+	<div class="slideIt">
+		<ul>
+			<li><img src="images/1st"></li>
+			<li><img src="images/2nd"></li>
+			<li><img src="images/3rd"></li>
+		</ul>
+	</div>
+
+	<script>
+		$(window).load( function() {
+			$('.slideIt').slideIt({
+				autoplay:false,
+				speed:2000,
+				arrows:true,
+				bullets :true,
+				imageGallery:true
+			});
+		});
+	</script>
+	</body>
+</html>
