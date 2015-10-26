@@ -23,7 +23,9 @@ Then, before your closing ```<body>``` tag add:
 <script type="text/javascript" src="//path to /js/jquery.sliderJs.min.js"></script>
 
 ```
-```markup
+
+#### markup
+```
 	<div class="slideIt">
 		<ul>
 			<li><img src="images/1st.png"></li>
